@@ -531,4 +531,135 @@
   .sab{
     text-align: center;
   }
+
+  //****************************** section7 map*********************
+.sec-map h6{
+    font-family: moses-two;
+    color: #333;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .sec-map h1{
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+    font-family: moses;
+  }
+  .sec-map h1 span{
+    color: #e81919;
+  }
+  .sec-map{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 500%;
+  }
+  iframe{
+    margin-top: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  //************************ section contact-two*******************
+  .sec-two{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    padding: 0 5%;
+  }
+  .sec-two .back {
+    display: flex;
+    margin: 20px;
+    width: 465px;
+    height: 110px;
+    background-color: #d7d4d4a2;
+    align-items: center;
+    gap: 15px;
+  }
+  .sec-two .back .noc {
+    background-color:#e81919;
+    color:#fff ;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px;
+    border: 1px solid #d03131 ;
+    border-radius: 50% ;
+    margin-left: 25px;
+  }
+  .sec-two .back h4,
+  p {
+    color: #333;
+  }
+  .sec-two .back h4{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+   
+  }
+  .sec-two .back p{
+    font-size: 14px;
+    color: #333;
+  }
+  
+  //*********************** section contact-three*******************
+  .contact-three {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  /* form */
+  .flex-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    padding: 2%;
+    background-color: #ffffff;
+    box-shadow: 1px 5px 10px 1px  #604e4e;
+  
+    
+  }
+  .input{
+  border-style: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  width: 450px;
+  
+  color: #193753;
+  }
+  .naem-flex{
+    display: flex;
+    gap: 25px;
+  }
+  
+  .subject,
+  .textarea{
+    width: 100%;
+  }
+  
+  .submit{
+    border-style: none;
+    background-color: rgb(194, 49, 49);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 60px;
+    font-size: 14px;
+    
+  }
+  .sab{
+    text-align: center;
+  }
   
