@@ -1,0 +1,69 @@
+// footer
+.fot{
+    background-color: #333;
+    margin-top: 100px;
+    width: 100%;
+    height: 280px;
+}
+.fot .fle-contain{
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    color: #fff;
+}
+.fot .fle-contain .flex-fot{
+    display: flex;
+    margin-top: 40px;
+
+}
+.fot .fle-contain .flex-fot .fofo {
+    margin-top: 10px; 
+    margin-right: 15px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50% ;
+}
+.fot .fle-contain .flex-fot .icons {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ }
+.fot .fle-contain .flex-fot .icons .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: 0.1px solid ;
+    border-radius: 50%;
+}
+.fot .fle-contain .flex-fot h6,
+p{
+    color: #fff;
+}
+.fot .fle-contain .flex-fot h6{
+    font-weight: bolder;
+    line-height: 35px;
+}
+.fot .fle-contain .flex-fot .par {
+    line-height: 3px;
+    font-size: 12px;
+}
+.fot .bord{
+    background-color: #fff;
+    border-bottom: 5px;
+    width: 100px;
+    line-height: 52px;
+}
+.fot .copy{
+    margin-top: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.fot .copy span{
+    font-weight: bold;
+}
