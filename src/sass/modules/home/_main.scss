@@ -385,4 +385,68 @@
     background-color:#e81919;
     cursor: pointer;
   }
+
+  //************************ section pro chef *************************
+#chfs{
+    width: 100%;
+  }
+  .chef{
+    width: 310px;
+    border-radius: 10px;
+    background-color:#fff;
+    transition: 0.6s;
+    position: relative;
+    img{
+        border-radius: 10px 10px 0px 0px;
+        width: 310px;
+        height: 350px;
+    }
+    p{
+       
+        color: #333;
+        font-size: 14px;
+    }
+    .tit{
+        font-size: 17px;
+        font-weight: bolder;
   
+    }
+  }
+  .section7-title{
+    font-size: 32px;
+    font-family: moses;
+    color: #333;
+  }
+  .pt-5 h6{
+    margin-top: 40px;
+    font-family: moses-two;
+    color: #333;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .pt-5 p{
+    margin-bottom: 25px;
+  }
+  .section7-title span{
+    color: #e81919;
+  }
+  .chef:hover{
+    scale: (1.1);
+  }
+  .chef:hover .social-media-chefs{
+    right: 5%;
+    opacity: 1;
+  }
+  .social-media-chefs{
+    width: 30px;
+    background-color:#e81919;
+    border-radius: 5px;
+    position: absolute;
+    top: 2%;
+    opacity: 0;
+    right: 0;
+    transition: 1s;
+    i{
+        padding-block: 5px;
+    }
+  }
