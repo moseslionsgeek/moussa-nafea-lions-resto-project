@@ -286,3 +286,103 @@
   .hamham .text-img div h1{
     font-weight: bolder;
   }
+
+  //   **********************************section6 carous one*********************
+.section-6 {
+    margin-top: 300px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  }
+  .section-6 .wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+  .main-heading p{
+    color: #333;
+    font-family: moses-two;
+    text-align: center;
+  }
+  .main-heading h1{
+    color: #333;
+    font-family: moses;
+    text-align: center;
+    margin: auto;
+  }
+  .main-heading h1 span{
+    color: #e81919;
+  }
+  .section-6 .wrapper .carusel {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    grid-auto-columns: 33.3333333333%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x: auto;
+  }
+  .section-6 .wrapper .carusel .card {
+    scroll-snap-align: start;
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  .section-6 .wrapper .carusel .card .slimage {
+    width: 100%;
+    position: relative;
+    height: 100%;
+  }
+  .section-6 .wrapper .carusel .card .slimage img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .section-6 .wrapper .carusel .card .slimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+  .section-6 .wrapper .carusel .card .slinfo {
+    width: 80%;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+  }
+  .section-6 .wrapper .carusel::-webkit-scrollbar {
+    display: none;
+  }
+  .section-6 .wrapper .carusel.draging .card {
+    cursor: grab;
+    user-select: none;
+  }
+  .section-6 .btnsslid {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-6 .btnsslid .slidBtn {
+    padding: 10px 18px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #fffefe;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color:#e81919;
+    cursor: pointer;
+  }
+  
