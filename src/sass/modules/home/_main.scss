@@ -450,3 +450,85 @@
         padding-block: 5px;
     }
   }
+
+  //************************* section-contact zero*********************
+.sec-zero{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec-zero .tex{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .sec-zero .tex h6{
+    font-family: moses-two;
+    color: #333;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .sec-zero .tex h1{
+    color: #333;
+    margin: auto;
+    font-size: 32px;
+    font-family: moses;
+  }
+  .sec-zero .tex h1 span{
+    color: #e81919;
+  }
+  .sec-zero .cont-zero{
+    display: flex;
+    
+    background-color: #e7e6e65d;
+  
+  }
+  .sec-zero .cont-zero .img-zero{
+    
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+    background-image: url(../../../../public/img/reservation.jpg);
+  }
+  /* form */
+  .sec-zero .cont-zero form{
+    margin-top: 60px;
+  }
+  .sec-zero .cont-zero .input{
+  border-style: none;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  width: 200px;
+  font-size: 14px;
+  color: #193753;
+  }
+  .sec-zero .cont-zero .naem-flex{
+    display: flex;
+    margin-top: 15px;
+    margin-inline: 40px;
+  }
+  
+  .sec-zero .cont-zero .textarea{
+    width: 89%;
+    margin-left: 40px;
+  }
+  
+  .sec-zero .cont-zero .submit{
+    border-style: none;
+    background-color: rgb(194, 49, 49);
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    margin-top: -10px;
+    font-size: 14px;
+    
+  }
+  .sab{
+    text-align: center;
+  }
+  
