@@ -67,3 +67,91 @@
     font-size: 25px;
     color: #d03131;
   }
+
+  //*************************section-2**************************
+.sec-2{
+    margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  }
+  // h2 et h6
+  .title-1{
+    text-align: center;
+    padding: 30px 0px;
+    font-family: moses;
+  }
+  .title-1 h6{
+    font-family: moses-two;
+    color: #333;
+  }
+  .learn span{
+    color: #e81919;
+  }
+  .fle-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+   
+  }
+  .rol{
+    position: relative;
+  }
+  .abs{
+    background-color: #fff;
+    padding: 10px 150px;
+    position: absolute;
+    transform: translate(10%, -190%);
+    text-align: center;
+  }
+  .abs h4{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .abs p{
+    color: #e81919;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .fle-2{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+   
+  }
+  .fle-2 p,
+  h5{
+    width: 380px;
+    font-family: moses-three;
+    font-size: 12px;
+  }
+  .fle-2 .fle-3 h5{
+    
+    width: 370px;
+    text-align: center;
+    font-family: moses-three;
+    font-size: 13px;
+    margin-left: -12px;
+  }
+  h5 .valid {
+    color: #e81919;
+    margin-right: 10px;
+  }
+  .colr p{
+    color: #333;
+    font-size: 13px;
+  }
+  .img-learn{
+    background-image: url(../../../../public/img/about-2.jpg);
+    background-size: cover;
+    width:360px ;
+    height:251px ;
+  }
+  .ham-ico{
+    font-size: 40px;
+    color: #e81919;
+    text-align: center;
+    margin:100px 150px;
+    border: 10px solid rgba(230, 10, 10, 0.5);
+    border-radius: 50%;
+  }
