@@ -1,20 +1,20 @@
 // footer
 .fot{
-    background-color: #333;
+    background-color: #26272a;
     margin-top: 100px;
     width: 100%;
     height: 280px;
 }
 .fot .fle-contain{
     display: flex;
-    justify-content: center;
-    gap: 160px;
+    gap: 100px;
     color: #fff;
+    margin-left: 240px;
 }
 .fot .fle-contain .flex-fot{
+    position: relative;
     display: flex;
     margin-top: 40px;
-
 }
 .fot .fle-contain .flex-fot .fofo {
     margin-top: 10px; 
@@ -52,10 +52,13 @@ p{
     font-size: 12px;
 }
 .fot .bord{
-    background-color: #fff;
-    border-bottom: 5px;
-    width: 100px;
-    line-height: 52px;
+    background-color: #9b9b9b33;
+    width: 70%;
+    height: 1px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translate(23%);
 }
 .fot .copy{
     margin-top: 70px;
